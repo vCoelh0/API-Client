@@ -1,0 +1,5 @@
+package com.coelhodev.crudclient.dto;
+
+public class FieldMessage {
+
+}

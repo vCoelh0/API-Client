@@ -1,0 +1,5 @@
+package com.coelhodev.crudclient.services.exceptions;
+
+public class DatabaseException {
+
+}

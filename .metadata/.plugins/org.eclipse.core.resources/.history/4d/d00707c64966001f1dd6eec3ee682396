@@ -1,0 +1,30 @@
+package com.coelhodev.crudclient.dto;
+
+public class FieldMessage {
+
+	private String fieldName;
+	private String fieldBirthDate;
+	private String message;
+	
+	
+	public FieldMessage(String fieldName, String fieldBirthDate, String message) {
+
+		this.fieldName = fieldName;
+		this.fieldBirthDate = fieldBirthDate;
+		this.message = message;
+	}
+	
+	
+	public String getFieldName() {
+		return fieldName;
+	}
+	public String getFieldBirthDate() {
+		return fieldBirthDate;
+	}
+	public String getMessage() {
+		return message;
+	}
+	
+	
+	
+}

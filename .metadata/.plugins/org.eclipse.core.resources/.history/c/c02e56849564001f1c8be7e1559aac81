@@ -1,0 +1,10 @@
+package com.coelhodev.crudclient.dto;
+
+public class CustomError {
+
+	private String timestemp;
+	private Integer status;
+	private String error;
+	private String path;
+	
+}

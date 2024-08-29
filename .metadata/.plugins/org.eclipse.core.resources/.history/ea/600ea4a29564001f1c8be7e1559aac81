@@ -1,0 +1,42 @@
+package com.coelhodev.crudclient.dto;
+
+public class CustomError {
+
+	private String timestemp;
+	private Integer status;
+	private String error;
+	private String path;
+	
+	
+	public CustomError(String timestemp, Integer status, String error, String path) {
+		this.timestemp = timestemp;
+		this.status = status;
+		this.error = error;
+		this.path = path;
+	}
+
+
+	public String getTimestemp() {
+		return timestemp;
+	}
+
+
+	public Integer getStatus() {
+		return status;
+	}
+
+
+	public String getError() {
+		return error;
+	}
+
+
+	public String getPath() {
+		return path;
+	}
+	
+	
+	
+	
+	
+}
