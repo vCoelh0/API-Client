@@ -22,11 +22,12 @@ public class Client {
 	private LocalDate birthDate;
 	private Integer children;
 		
-	public Client() {
+	public Client() {                       
 		
 	}
-
+	
 	public Client(Long id, String name, String cpf, Double income, LocalDate birthDate, Integer children) {
+		super();
 		this.id = id;
 		this.name = name;
 		this.cpf = cpf;
@@ -71,7 +72,7 @@ public class Client {
 		return birthDate;
 	}
 
-	public void setBirthDate(LocalDate brithDate) {
+	public void setBirthDate(LocalDate birthDate) {
 		this.birthDate = birthDate;
 	}
 
@@ -82,6 +83,9 @@ public class Client {
 	public void setChildren(Integer children) {
 		this.children = children;
 	}
+
+	
+	
 
 	
 }
