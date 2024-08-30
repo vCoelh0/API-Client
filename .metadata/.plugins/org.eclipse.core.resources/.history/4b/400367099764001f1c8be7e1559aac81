@@ -1,5 +1,0 @@
-package com.coelhodev.crudclient.controllers.handlers;
-
-public class ControllerExceptionHandler {
-
-}
